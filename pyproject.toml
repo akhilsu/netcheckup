@@ -14,3 +14,7 @@ netcheckup = "netcheckup:main"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/AkhilSu/netcheckup"
+Repository = "https://github.com/AkhilSu/netcheckup"
