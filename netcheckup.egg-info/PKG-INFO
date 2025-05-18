@@ -57,3 +57,32 @@ After installation, just run:
 ```bash
 netcheckup
 ```
+
+just run:
+```bash
+netcheckup speed
+```
+
+```bash
+from netcheckup import main
+
+main()
+```
+
+```bash
+from netcheckup import ping_check
+
+print(ping_check(["8.8.8.8"]))
+```
+
+```bash
+from netcheckup import dns_check
+
+print(dns_check(["google.com"]))
+```
+
+```bash
+from netcheckup import port_check
+
+print(port_check(host="8.8.8.8", ports=[53, 443]))
+```
