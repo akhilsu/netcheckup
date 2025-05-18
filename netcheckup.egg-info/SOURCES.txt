@@ -2,10 +2,12 @@ LICENSE.txt
 README.md
 pyproject.toml
 netcheckup/__init__.py
+netcheckup/__main__.py
 netcheckup/core.py
 netcheckup.egg-info/PKG-INFO
 netcheckup.egg-info/SOURCES.txt
 netcheckup.egg-info/dependency_links.txt
 netcheckup.egg-info/entry_points.txt
+netcheckup.egg-info/requires.txt
 netcheckup.egg-info/top_level.txt
 tests/test_core.py

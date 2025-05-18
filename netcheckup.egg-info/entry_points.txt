@@ -1,2 +1,2 @@
 [console_scripts]
-netcheckup = netcheckup:main
+netcheckup = netcheckup.__main__:main

@@ -1,18 +1,18 @@
 [project]
 name = "netcheckup"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple internet health diagnostic tool"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
-authors = [{name = "akhilsudhakaran", email = "akhilsudhakaran14@gmail.com"}]
-dependencies = []
+authors = [{name = "akhilsudhakaran"}]
+dependencies = ["speedtest-cli"]
 
 [project.scripts]
-netcheckup = "netcheckup:main"
+netcheckup = "netcheckup.__main__:main"
 
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]

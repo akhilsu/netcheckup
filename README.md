@@ -43,3 +43,8 @@ After installation, just run:
 ```bash
 netcheckup
 ```
+
+After installation, just run:
+```bash
+netcheckup speed
+```

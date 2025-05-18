@@ -1,12 +1,15 @@
 Metadata-Version: 2.4
 Name: netcheckup
-Version: 0.1.0
+Version: 0.1.2
 Summary: A simple internet health diagnostic tool
-Author-email: AkhilSu <akhilsudhakaran@outlook.com>
+Author: akhilsudhakaran
 License: MIT
+Project-URL: Homepage, https://github.com/AkhilSu/netcheckup
+Project-URL: Repository, https://github.com/AkhilSu/netcheckup
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
+Requires-Dist: speedtest-cli
 Dynamic: license-file
 
 # netcheckup
@@ -15,6 +18,42 @@ Dynamic: license-file
 
 ## Usage
 
+```bash
+netcheckup
+```
+
+[![PyPI version](https://badge.fury.io/py/netcheckup.svg)](https://pypi.org/project/netcheckup/)
+
+
+# 🧠 netcheckup
+
+[![PyPI version](https://badge.fury.io/py/netcheckup.svg)](https://pypi.org/project/netcheckup/)
+[![Python version](https://img.shields.io/pypi/pyversions/netcheckup.svg)](https://pypi.org/project/netcheckup/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> A simple CLI tool to check your internet health — DNS resolution, ping, and port reachability in one shot!
+
+---
+
+## 🚀 Features
+
+- ✅ DNS resolution check for popular domains
+- ✅ ICMP Ping check for global IPs like `8.8.8.8`
+- ✅ Port connectivity check for standard services
+- ✅ Fast, Pythonic, and fully terminal-based
+- ✅ CLI with one command: `netcheckup`
+
+---
+
+## 📦 Installation
+
+Install directly from PyPI:
+
+```bash
+pip install netcheckup
+```
+
+After installation, just run:
 ```bash
 netcheckup
 ```
