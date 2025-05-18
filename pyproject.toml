@@ -4,7 +4,7 @@ version = "0.2.0"
 description = "A simple internet health diagnostic tool"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT"}'
+license = {text = "MIT"}
 authors = [{name = "akhilsudhakaran"}]
 dependencies = ["speedtest-cli"]
 
